@@ -1,0 +1,161 @@
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Helvectica, fantasy;
+}
+
+body {
+  background-image: url("bg5.jpg");
+  background-color: #C4C2C2;
+}
+
+h2{
+  position: relative;
+  bottom: 25px;
+  font-weight: bold;
+}
+
+hr {
+  border-color: white;
+}
+
+section {
+  border: 1px solid black;
+  background-color: #6495ED;
+  width: 100%;
+  height: auto;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+  overflow: auto;
+  padding-left: 8px;
+}
+
+.container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#chicken {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #a0a0a0;
+}
+
+#beef {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #a0a0a0;
+}
+
+#sushi {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #a0a0a0;
+  padding: 5px;
+}
+
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #6495ED;
+  color: #FFFFFF;
+}
+
+.navbar.navbar-default {
+  background-color: #ddd;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+.navbar-default .navbar-brand {
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-toggle.collapsed {
+  border-color: black;
+}
+
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+  background-color: black;
+}
+
+.navbar-default .navbar-toggle.collapsed:hover,
+.navbar-default .navbar-toggle {
+  border-color: white;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+#navbar-menu li {
+  border: 1px solid gray;
+}
+
+div.section {
+  background-color: #ddd;
+  padding: 5px 20px 15px 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  #navbar-menu {
+    background-color: white;
+  }
+}
+
+.item {
+  color: black;
+  font-size: 1.2em;
+}
+
+#nav-list {
+  color: white;
+}
